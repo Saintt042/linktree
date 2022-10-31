@@ -1,14 +1,12 @@
 
-import './App.css';
+import ProfileCard from './pages/ProfileCard/ProfileCard';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Linktree</h1>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<ProfileCard />
+		</>
+	);
 }
 
 export default App;

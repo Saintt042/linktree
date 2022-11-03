@@ -58,6 +58,11 @@ const ProfileCard = () => {
 					btnId={'book__design'}
 					btnLink={'https://books.zuri.team/design-rules'}
 				/>
+				<Button
+					text={'Contact Me'}
+					btnId={'contact'}
+					btnLink={'/contact'}
+				/>
 			</div>
 			<div className='socials'>
 				<img src={slack} alt='slack' style={{ marginRight: '1.5rem' }} />

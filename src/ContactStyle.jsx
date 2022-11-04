@@ -32,10 +32,6 @@ margin: 1.2rem auto 1.2rem auto;
 
   .names{
     display: flex;
-    
-
-    
-    
   }
   
   /* Overwrite default styles of hr */

@@ -17,7 +17,7 @@ const Contact = () => {
       <input type="text" placeholder="Enter your first name" id="first_name" required />
 
       
-      <label for="text"><b> Last name </b></label>
+      <label for="text" ><b> Last name </b></label>
       <input type="text" placeholder="Enter your last name" id="last_name" required />
   
       </div>
@@ -34,7 +34,7 @@ const Contact = () => {
       <hr />
 
       
-      <input type="checkbox" placeholder=" Send me a message and i'll reply you as soon as possible... " name="message" id="message" required />
+      <input type="checkbox" placeholder=" Send me a message and i'll reply you as soon as possible... " name="message" id="checkbox" required />
       <label for="message"> You agree to providing your data to name who may contact you. </label>
 
 

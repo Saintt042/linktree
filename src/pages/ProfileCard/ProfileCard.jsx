@@ -1,13 +1,14 @@
 import React from 'react';
-import Button from '../../component/button';
+import Button from '../../component/Button';
 import ProfileImage from '../../resources/DisplayPhoto.jpeg';
 import { MyCard } from '../ProfileCard/ProfileCardStyle';
 import slack from '../../resources/slack.png';
 import github from '../../resources/Icon.png';
-import zuri from '../../resources/zuri.png';
-import I4G from '../../resources/I4G.png';
 import share from '../../resources/share.png';
 import shareMobile from '../../resources/shareMobile.png';
+import {NavLink} from 'react-router-dom';
+import { MyButton } from '../../component/ButtonStyle';
+// import Footer from '../../component/layout/Footer';
 
 const ProfileCard = () => {
 	return (
@@ -58,25 +59,15 @@ const ProfileCard = () => {
 					btnId={'book__design'}
 					btnLink={'https://books.zuri.team/design-rules'}
 				/>
-				<Button
-					text={'Contact Me'}
-					btnId={'contact'}
-					btnLink={'/contact'}
-				/>
+				<NavLink to='/Contact'>
+				<MyButton> Contact Me </MyButton>
+				</NavLink>
 			</div>
 			<div className='socials'>
 				<img src={slack} alt='slack' style={{ marginRight: '1.5rem' }} />
 				<img src={github} alt='github' />
 			</div>
-			<footer>
-				<div>
-					<img src={zuri} alt='zuri' />
-				</div>
-				<p>HNG Internship 9 Frontend Task</p>
-				<div>
-					<img src={I4G} alt='i4g' />
-				</div>
-			</footer>
+			{/* <Footer /> */}
 		</MyCard>
 	);
 };

@@ -5,6 +5,7 @@ export const MyButton = styled.button`
 	border-radius: 2px;
 	font-size: clamp(0.95rem, 1.5vw, 1.1rem);
 	padding: 15px;
+	width: 100%;
 	background-color: ${({ theme }) => theme.colors.buttonColor};
 	box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.3);
 	cursor: pointer;

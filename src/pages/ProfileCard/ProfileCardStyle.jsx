@@ -74,21 +74,9 @@ export const MyCard = styled.div`
 	.socials {
 		margin-top: 1rem;
 	}
-	footer {
-		border-top: 1px solid rgb(255, 255, 255, 0.3);
-		padding: 15px;
-		margin-top: 2rem;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
+	
 	@media ${({ theme }) => theme.mediaQueries['below630']} {
-		footer {
-			flex-direction: column;
-		}
-		footer > * {
-			margin-bottom: 1.5rem;
-		}
+		
 		.share {
 			display: none;
 		}

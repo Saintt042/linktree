@@ -1,7 +1,7 @@
 import React from 'react';
-import { MyButton } from './buttonStyle';
+import { MyButton } from './ButtonStyle';
 
-const button = ({ btnId, btnLink, text}) => {
+const Button = ({ btnId, btnLink, text}) => {
   return (
     <MyButton>
         <a href = {btnLink} target ='_blank' rel = 'noreferrer' id={btnId}>
@@ -11,4 +11,4 @@ const button = ({ btnId, btnLink, text}) => {
   );
 };
 
-export default button;
+export default Button;

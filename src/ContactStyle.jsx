@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const ContactMe = styled.div`
-margin: 1.2rem auto 1.2rem auto;
+  margin: 1.2rem auto 1.2rem auto;
 	background-color: white;
 	border-radius: 4px;
 	box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.3);
 	color: ${({ theme }) => theme.colors.textColor};
-	max-width: 95%;
+	max-width: 90%;
 
   
   .container {
@@ -19,21 +19,24 @@ margin: 1.2rem auto 1.2rem auto;
     height: 10px;
     padding: 15px;
     margin: 5px 0 22px 0;
-    display: inline-block;
+    display: flex;
+
     border-radius: 5px;
     background: white;
     border-color: #D0D5DD;
   }
+
+  
   
   input[type=text]:focus, input[type=password]:focus {
     background-color: #ddd;
     outline: none;
   }
 
-  .names{
-    display: flex;
+  h1{
+    margin-bottom: 20px;
   }
-  
+
   /* Overwrite default styles of hr */
   hr {
     border: 1px solid #f1f1f1;
